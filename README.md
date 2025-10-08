@@ -129,11 +129,12 @@ UNT Rater is a sleek, student-focused web application that allows University of 
 
 ## 📸 Screenshots
 
+  <img width="488" height="350" alt="Screenshot 2025-10-08 at 2 26 50 AM" src="https://github.com/user-attachments/assets/4b4ec6dd-29f1-4bc4-9a92-eda67571976b" />
+  <img width="488" height="350" alt="Screenshot 2025-10-08 at 2 29 08 AM" src="https://github.com/user-attachments/assets/2559b1c6-583f-4e8c-8d65-cbe922f3ce91" />
   
+  <img width="488" height="350" alt="Screenshot 2025-10-08 at 2 31 09 AM" src="https://github.com/user-attachments/assets/dd1458a5-b9a2-4e9e-ab42-2589876ac0e8" />
+  <img width="488" height="350" alt="Screenshot 2025-10-08 at 2 31 56 AM" src="https://github.com/user-attachments/assets/c013b70f-7d56-438c-8732-c06983cceb3c" />
 
-  
-
-> Add screenshots of your application here
 
   
 
