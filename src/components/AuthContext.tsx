@@ -7,6 +7,28 @@ interface User {
   studentId?: string;
   graduation?: string;
   major?: string;
+  ratedProfessors?: RatedProfessor[];
+  savedProfessors?: SavedProfessor[];
+}
+
+interface RatedProfessor {
+  id: number;
+  name: string;
+  department: string;
+  course: string;
+  rating: number;
+  review: string;
+  dateRated: string;
+}
+
+interface SavedProfessor {
+  id: number;
+  name: string;
+  department: string;
+  rating: number;
+  reviews: number;
+  courses: string[];
+  dateSaved: string;
 }
 
 interface AuthContextType {

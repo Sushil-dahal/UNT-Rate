@@ -6,6 +6,7 @@ import Signup from "./components/signup";
 import AddProfessor from "./components/addprofessor";
 import BrowseProfessors from "./components/browseprofessors";
 import Departments from "./components/departments";
+import Profile from "./components/profile";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/add-professor" element={<AddProfessor />} />
           <Route path="/browse-professors" element={<BrowseProfessors />} />
           <Route path="/departments" element={<Departments />} />
+          <Route path="/profile" element={<Profile />} />
           {/* Catch-all route to redirect any unmatched paths to home */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

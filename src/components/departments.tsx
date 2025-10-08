@@ -256,7 +256,7 @@ export default function Departments() {
 
       {/* Footer */}
       <footer className="py-8 text-center text-gray-500">
-        © {new Date().getFullYear()} UNTRate — Built by students for students.
+        © {new Date().getFullYear()} UNTRate — Built by Quadra Tech.
       </footer>
     </div>
   );

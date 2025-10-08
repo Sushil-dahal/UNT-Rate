@@ -3,7 +3,7 @@ import { GraduationCap, LogOut, User } from "lucide-react";
 import { useAuth } from "./AuthContext";
 
 interface HeaderProps {
-  currentPage?: 'home' | 'browse-professors' | 'departments' | 'add-professor' | 'signin' | 'signup';
+  currentPage?: 'home' | 'browse-professors' | 'departments' | 'add-professor' | 'signin' | 'signup' | 'profile';
 }
 
 export default function Header({ currentPage }: HeaderProps) {
@@ -58,14 +58,17 @@ export default function Header({ currentPage }: HeaderProps) {
           <div className="flex items-center gap-3">
             {isAuthenticated && user ? (
               <>
-                <div className="flex items-center gap-2 text-gray-700">
+                <button 
+                  onClick={() => navigate("/profile")}
+                  className="flex items-center gap-2 text-gray-700 hover:text-green-600 transition-colors"
+                >
                   <div className="w-8 h-8 rounded-full bg-green-600 flex items-center justify-center">
                     <User className="w-4 h-4 text-white" />
                   </div>
                   <span className="font-medium">
                     {user.firstName} {user.lastName}
                   </span>
-                </div>
+                </button>
                 <button
                   onClick={handleLogout}
                   className="px-4 py-2 border border-red-600 text-red-700 rounded-lg hover:bg-red-50 flex items-center gap-2"
