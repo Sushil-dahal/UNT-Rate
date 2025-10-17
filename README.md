@@ -35,7 +35,7 @@ UNT Rater is a sleek, student-focused web application that allows University of 
 
   
   
-  
+  ---
 
   
 
@@ -76,7 +76,7 @@ UNT Rater is a sleek, student-focused web application that allows University of 
 - 🎨 **Modern UI**: Clean, professional interface with intuitive navigation
 
   
-
+---
   
 
 ## ⚙️ Tech Stack
@@ -125,7 +125,7 @@ UNT Rater is a sleek, student-focused web application that allows University of 
 -  **CSS Variables** - Dynamic theming support
 
   
-
+---
   
 
 ## 📸 Screenshots
@@ -136,7 +136,7 @@ UNT Rater is a sleek, student-focused web application that allows University of 
   <img width="488" height="350" alt="Screenshot 2025-10-08 at 2 31 09 AM" src="https://github.com/user-attachments/assets/dd1458a5-b9a2-4e9e-ab42-2589876ac0e8" />
   <img width="488" height="350" alt="Screenshot 2025-10-08 at 2 31 56 AM" src="https://github.com/user-attachments/assets/c013b70f-7d56-438c-8732-c06983cceb3c" />
 
-
+---
 
 ## 🛠️ Version History
 
@@ -318,7 +318,7 @@ The build output will be in the `build` directory.
 
   
   
-  
+---  
 
 ## 🔐 Authentication
 
@@ -347,7 +347,7 @@ The application uses a custom authentication system with React Context API:
 - Protected routes for authenticated users only
 
   
-
+---
   
 
 ## ☁️ Deployment
@@ -397,7 +397,7 @@ npm  run  build
 
   
 
-  
+  ---
 
 ## 🤝 Contributing
 
@@ -422,7 +422,7 @@ Contributions are welcome! Please follow these steps:
 5. Submit a pull request
 
   
-
+---
   
 
 ## 📄 License
@@ -433,7 +433,7 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Sushil-dahal/UNT-Rate?tab=MIT-1-ov-file) file for details.
 
-  
+ --- 
 
 ## 📞 Support
 
