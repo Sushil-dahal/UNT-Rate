@@ -14,11 +14,12 @@
 
 <p align="center">
   <a href="#-features">Features</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-    <a href="#-screenshots">Screenshots</a> •
-  <a href="#-installation">Installation</a> •
+  <a href="#%EF%B8%8F-tech-stack">Tech Stack</a> •
+  <a href="#-screenshots">Screenshots</a> •
+  <a href="#%EF%B8%8F-version-history">Version History</a> •
+  <a href="#-getting-started">Installation</a> •
   <a href="#-authentication">Authentication</a> •
-  <a href="#-deployment">Deployment</a> •
+  <a href="#%EF%B8%8F-deployment">Deployment</a> •
   <a href="#-contributing">Contributing</a>
 </p>
 
@@ -136,9 +137,60 @@ UNT Rater is a sleek, student-focused web application that allows University of 
   <img width="488" height="350" alt="Screenshot 2025-10-08 at 2 31 56 AM" src="https://github.com/user-attachments/assets/c013b70f-7d56-438c-8732-c06983cceb3c" />
 
 
-  
 
-  
+## 🛠️ Version History
+
+The development of UNT Rater was structured across three major, incremental releases. Click the **Project Link** to explore the live, deployed environment for that specific milestone.
+
+| Version | Key Focus | **Status** | Project Link |
+| :--- | :--- | :--- | :--- |
+| **1.0** | **Frontend Prototype** | Complete | [View Project](https://amazing-cannoli-f2e037.netlify.app) |
+| **2.0** | **Core Functionality** | Complete | [View Project](https://adorable-biscochitos-f0ce0d.netlify.app/) |
+| **3.0** | **Final Release** | **IN PROGRESS** 🚧 | [View Project]() **&lt;-- Final URL Coming Soon** |
+
+---
+
+### 🔴 Version 1.0: Frontend Prototype
+
+**Goal:** Establish the **complete frontend application UI/UX** using modern React and TypeScript, focusing on responsive design and user experience.
+
+| Feature Category | Implementation Details |
+| :--- | :--- |
+| **Frameworks** | Built with **React** and **TypeScript** for a robust, type-safe frontend. |
+| **Design System** | Utilizes **Tailwind CSS** for styling and **shadcn/ui** for consistent, accessible components. |
+| **Initial State** | Custom authentication state management using **React Context API** and **localStorage** (mocked). |
+| **Coverage** | Includes all core application views: Home, Auth pages, Professor Search, Department Filtering, and Profile management. |
+
+This version represents a fully navigable prototype with all UI elements and user interactions working with mock data before any backend integration.
+
+---
+
+### 🟡 Version 2.0: Core Functionality (Backend Integration)
+
+**Goal:** Complete the **full-stack application architecture** by integrating Supabase as the backend-as-a-service and implementing persistent, real database functionality.
+
+| Feature Category | Implementation Details |
+| :--- | :--- |
+| **Backend Platform** | **Supabase Integration** providing PostgreSQL, secure authentication, and real-time features. |
+| **Database Schema** | Created core tables: `Professors`, `Professor Ratings`, and `Saved Professors` with necessary relations. |
+| **Security** | Implemented **Row Level Security (RLS)** policies for data protection and enforced **UNT email validation** (`@my.unt.edu`). |
+| **API/Data** | Enabled **real-time CRUD operations** for professors, and established the foundation for the rating system and user-specific data management. |
+
+This version transforms the prototype into a fully functional application with persistent storage, secure user authentication, and automatic data synchronization.
+
+---
+
+### 🟢 Version 3.0: Final Release & Refinement (IN PROGRESS 🚧)
+
+**Goal:** Deliver a **professional, production-ready platform**. This stage finalizes the core features, adds real-time community interaction, and provides a polished user experience.
+
+
+
+**This version is currently under active development.**
+
+ ---
+
+ 
 
 ## 🚀 Getting Started
 
